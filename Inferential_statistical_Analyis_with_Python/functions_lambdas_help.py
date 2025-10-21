@@ -16,16 +16,17 @@ import seaborn as sns
 
 # make_plot(np.random.normal(size=500))
 
-f = (lambda x: x**2)(3)
+# f = (lambda x: x**2)(3)
 
-print(f)
+# print(f)
 
-f = lambda x : np.sin(x)
-x = np.linspace(-np.pi, np.pi, 100)
-y = [f(i) for i in x]
+# f = lambda x : np.sin(x)
+# x = np.linspace(-np.pi, np.pi, 100)
+# y = [f(i) for i in x]
 
 
-
+my_dict = {'peaches':'cream', 'cat':'dog', 'this one':'that one'}
+print(my_dict['this one'])
 
 
 
